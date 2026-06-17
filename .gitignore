@@ -1,0 +1,12 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+!.env.example
+*.gguf
+*.sqlite
+*.db
+*.DS_Store
+/config/privatePrompts.tsx
