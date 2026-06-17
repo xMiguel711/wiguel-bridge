@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Wiguel-AI Bridge v3.0 - Developed by Miguel Molina.
+# Wiguel-AI Bridge v3.0 - Developed by miguelmolinas713
 
 # Copyright (c) 2026 Miguel Molina. All Rights Reserved.
 # Unauthorized copying of this file, via any medium is strictly prohibited.
@@ -38,12 +38,8 @@ FALLBACK_WEB_URLS = [
     "https://ais-pre-r5seu74fsp2ztzi5ljgoom-437698592681.europe-west2.run.app"
 ]
 
-# Load system prompt
-try:
-    with open("system_prompt.txt", "r", encoding="utf-8") as f:
-        SYSTEM_PROMPT = f.read()
-except FileNotFoundError:
-    SYSTEM_PROMPT = "You are Wiguel-AI, an advanced productivity tool."
+# Cargar system prompt desde variable de entorno
+SYSTEM_PROMPT = os.environ.get("SYSTEM_PROMPT", "Eres Wiguel-AI, un asistente virtual de vanguardia.")
 
 # ══════════════════════════════════════════
 #   GLOBAL VARIABLES
