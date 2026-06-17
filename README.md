@@ -40,7 +40,7 @@ You need to install the required Python libraries (`fastapi` and `uvicorn`).
 
 1. The script will automatically download the required GGUF model if not already present.
 2. Once running, a unique **Synchronization PIN** will be displayed in your terminal.
-3. Open the Wiguel-AI app in your browser at `https://wiguel-ai.vercel.app` (or your local hosting instance).
+3. Open the Wiguel-AI app in your browser at `https://wiguel-ai.vercel.app`.
 4. Click the **Bridge** icon in the UI and enter the PIN shown in the terminal.
 5. You are now connected! Your local machine is handling the AI processing.
 
