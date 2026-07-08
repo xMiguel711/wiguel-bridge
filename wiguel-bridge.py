@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Wiguel-AI Bridge v3.0 - Developed by miguelmolinas713
+# Wiguel-AI Bridge - Developed by Miguel Molina.
 
 # Copyright (c) 2026 Miguel Molina. All Rights Reserved.
 # Unauthorized copying of this file, via any medium is strictly prohibited.
@@ -26,7 +26,7 @@ import uvicorn
 # ══════════════════════════════════════════
 #   WIGUEL-AI CONFIGURATION
 # ══════════════════════════════════════════
-MODEL_URL = "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguff"
+MODEL_URL = "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf"
 MODEL_FILE = "Wiguel-AI.gguf"
 PWA_URL = "https://wiguel-ai.vercel.app/"
 
