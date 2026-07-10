@@ -26,7 +26,7 @@ import uvicorn
 # ══════════════════════════════════════════
 #   WIGUEL-AI CONFIGURATION
 # ══════════════════════════════════════════
-MODEL_URL = "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf"
+MODEL_URL = "https://huggingface.co/xMiguel11/Wiguel-AI-GGUF/resolve/main/Wiguel-AI.gguf"
 MODEL_FILE = "Wiguel-AI.gguf"
 PWA_URL = "https://wiguel-ai.vercel.app/"
 
